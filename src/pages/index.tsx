@@ -1,8 +1,6 @@
-import { api } from "~/utils/api";
 import NewTweetForm from "~/components/NewTweetForm";
 
 export default function Home() {
-  const hello = api.example.hello.useQuery({ text: "from tRPC" });
 
   return (
     <>
