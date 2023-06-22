@@ -1,5 +1,5 @@
-import { createTRPCRouter } from "~/server/api/trpc";
-import { tweetRouter } from "~/server/api/routers/tweet";
+import { createTRPCRouter } from "./trpc";
+import { tweetRouter } from "./routers/tweet";
 
 /**
  * This is the primary router for your server.
